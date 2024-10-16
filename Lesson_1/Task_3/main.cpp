@@ -1,26 +1,25 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int s,v;
-    s=0;
-    v=0;
+    int Dodanok,Sosiska;
+    Dodanok=0;
+    Sosiska=0;
     while (true) {
-    char a;
-    cin>>s>>v>>a;
-    switch (a) {
+    char Kavun;
+    cin>>Dodanok>>Sosiska>>Kavun;
+    switch (Kavun) {
     case '*':
-        cout<<s*v;
+        cout<<Dodanok*Sosiska;
         break;
     case '/':
-        cout<<s/v;
+        cout<<Dodanok/Sosiska;
         break;
     case '+':
-        cout<<s+v;
+        cout<<Dodanok+Sosiska;
         break;
     case '-':
-        cout<<s-v;
+        cout<<Dodanok-Sosiska;
         break;
-
     default:
         return 0;
         }
